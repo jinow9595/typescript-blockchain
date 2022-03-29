@@ -2,7 +2,7 @@
   "name": "typescript-study",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "block.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \" node dist/index.js\""
   },
@@ -13,5 +13,8 @@
     "ts-node": "^10.7.0",
     "tsc-watch": "^4.6.2",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
   }
 }
